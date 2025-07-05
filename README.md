@@ -13,12 +13,7 @@ to assist in early detection of retinal diseases.
 - Python
 - TensorFlow / Keras
 - Matplotlib, Pandas, Numpy
-
-## 📊 Results
- Achieved **95% accuracy** on the test set.  
- Visualized predictions on sample OCT images.  
- Trained using CNN with data augmentation.
-
+- 
 ## 📂 Dataset
 We used the **[OCT Retina (Kermany) dataset](https://www.kaggle.com/datasets/paultimothymooney/kermany2018)** containing **retinal OCT images** classified into:
 - **CNV** (Choroidal Neovascularization)
@@ -53,6 +48,11 @@ To improve generalization, we applied:
 
 This helped **mitigate overfitting** and handle class imbalance effectively.
 
+## 📊 Results
+ Achieved **95% accuracy** on the test set.  
+ Visualized predictions on sample OCT images.  
+ Trained using CNN with data augmentation.
+ 
 ## 📈 Future Improvements
 - Hyperparameter tuning to further improve accuracy.
 - Model quantization for mobile deployment.
